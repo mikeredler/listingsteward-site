@@ -47,3 +47,6 @@ section{padding:72px 0}
 @keyframes float{to{transform:translate(-6%,8%) scale(1.08)}}@keyframes rise{from{transform:translateY(18px)}}
 @media(min-width:820px){.nav nav a:not(.pill){display:inline}.hgrid{grid-template-columns:1.1fr 1fr;align-items:center}.hero{padding:96px 0 110px}.grid3{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:1fr 1fr}.steps{grid-template-columns:repeat(4,1fr)}.foot .w{grid-template-columns:2fr 1fr}.foot .fine{grid-column:1/-1}.mock{padding-left:20px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.narrow{max-width:760px}.grader .q{border:1px solid var(--line);background:var(--s1);border-radius:14px;padding:16px 18px;margin:0 0 12px}.grader legend{font-weight:600;padding:0 4px;float:left;width:100%;margin-bottom:8px}
+.grader label{display:inline-flex;align-items:center;gap:8px;margin-right:22px;color:var(--mu);cursor:pointer}.grader input{accent-color:#2DD4E8;width:18px;height:18px}
+.result{margin-top:30px;background:var(--s1);border-radius:20px;padding:28px;border:2px solid transparent;background:linear-gradient(var(--s1),var(--s1)) padding-box,var(--grad) border-box}.result ol li{margin:8px 0}
