@@ -50,3 +50,18 @@ section{padding:72px 0}
 .narrow{max-width:760px}.grader .q{border:1px solid var(--line);background:var(--s1);border-radius:14px;padding:16px 18px;margin:0 0 12px}.grader legend{font-weight:600;padding:0 4px;float:left;width:100%;margin-bottom:8px}
 .grader label{display:inline-flex;align-items:center;gap:8px;margin-right:22px;color:var(--mu);cursor:pointer}.grader input{accent-color:#2DD4E8;width:18px;height:18px}
 .result{margin-top:30px;background:var(--s1);border-radius:20px;padding:28px;border:2px solid transparent;background:linear-gradient(var(--s1),var(--s1)) padding-box,var(--grad) border-box}.result ol li{margin:8px 0}
+/* conversion rewrite Oct 31 2026: free sample fix form */
+.kicker{display:block;font:600 .82rem Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--cy);margin-bottom:.7em}
+.sf{background:var(--s1);border:1px solid var(--line);border-radius:18px;padding:18px;margin:26px 0 10px;display:grid;gap:10px;max-width:560px;box-shadow:0 20px 60px rgba(124,92,255,.18)}
+.sf label{display:grid;gap:4px;font-size:.85rem;font-weight:600;color:var(--mu)}
+.sf input{font:inherit;color:var(--tx);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:12px 14px;width:100%}
+.sf input:focus{border-color:var(--cy);outline:none}
+.sf .hp{position:absolute;left:-9999px}
+.sf button.btn{border:0;cursor:pointer;font:700 1.05rem Inter,sans-serif;width:100%}
+.sf button[disabled]{opacity:.7;cursor:default}
+.sf-msg{margin:4px 0 0;color:var(--tx);font-size:.95rem}
+.sf.done label,.sf.done button{display:none}
+.close .sf{margin:0 auto;text-align:left}
+.sample .row b{color:var(--tx)}
+.sample .row{color:var(--mu)}
+@media(min-width:820px){.sf{grid-template-columns:1fr 1fr}.sf .full,.sf button,.sf .sf-msg,.sf .micro{grid-column:1/-1}}
